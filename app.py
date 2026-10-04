@@ -77,7 +77,6 @@ else:
         st.info("Please upload a CSV file.")
         st.stop()
 
-
 st.subheader("📊 Data Preview")
 st.dataframe(df)
 
@@ -107,43 +106,13 @@ missing_table = pd.DataFrame({
 st.dataframe(missing_table)
 
 if duplicate_rows > 0:
-    st.warning(
-        f"⚠️ Found {duplicate_rows} duplicate row(s)."
-    )
+    st.warning(f"⚠️ Found {duplicate_rows} duplicate row(s).")
 else:
     st.success("✅ No duplicate rows found.")
 
 if missing_values.sum() > 0:
-    st.warning(
-        "⚠️ Missing values were found in the dataset."
-    )
+    st.warning("⚠️ Missing values were found in the dataset.")
 else:
     st.success("✅ No missing values found.")
 
 st.success("✅ Data quality check completed!")
-    with col2:
-        st.metric("Columns", df.shape[1])
-
-    with col3:
-        st.metric("Duplicate Rows", duplicate_rows)
-
-    st.write("### Missing Values")
-
-    missing_table = pd.DataFrame({
-        "Column": missing_values.index,
-        "Missing Values": missing_values.values
-    })
-
-    st.dataframe(missing_table)
-
-    if duplicate_rows > 0:
-        st.warning(f"⚠️ Found {duplicate_rows} duplicate row(s).")
-    else:
-        st.success("✅ No duplicate rows found.")
-
-    if missing_values.sum() > 0:
-        st.warning("⚠️ Missing values were found in the dataset.")
-    else:
-        st.success("✅ No missing values found.")
-
-    st.success("✅ Data quality check completed!")
