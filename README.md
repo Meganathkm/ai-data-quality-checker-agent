@@ -121,19 +121,11 @@ AI-Data-Quality-Checker/
 
 ⚙️ Installation
 
-Step 1: Clone the repository
-
-git clone https://github.com/Meganathkm/AI-Data-Quality-Checker.git
-
-Step 2: Open the project folder
-
-cd AI-Data-Quality-Checker
-
-Step 3: Install dependencies
+Step 1: Install dependencies
 
 pip install -r requirements.txt
 
-Step 4: Run the application
+Step 2: Run the application
 
 streamlit run app.py
 
