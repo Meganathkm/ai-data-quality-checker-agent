@@ -1,10 +1,10 @@
-🤖 AI Data Quality Checker
+# 🤖 AI Data Quality Checker
 
-A simple and user-friendly AI-powered Data Quality Checker built with Python and Streamlit. This application helps users quickly identify common data quality issues in CSV files, such as missing values and duplicate records.
+A simple and user-friendly Data Quality Checker built with Python and Streamlit.
 
----
+[🚀 **Live Demo**](https://ai-data-quality-checker-agent-zkbdobu7uezjbtbiz2c9s2.streamlit.app/)
 
-🚀 Features
+## 🚀 Features
 
 - 📂 Upload CSV files
 - 🧪 Use sample CSV data
