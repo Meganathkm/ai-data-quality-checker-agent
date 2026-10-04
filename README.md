@@ -123,7 +123,7 @@ AI-Data-Quality-Checker/
 
 Step 1: Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/AI-Data-Quality-Checker.git
+git clone https://github.com/Meganathkm/AI-Data-Quality-Checker.git
 
 Step 2: Open the project folder
 
